@@ -3,3 +3,4 @@ langchain_community
 langchain_groq
 python-dotenv
 streamlit
+faiss-cpu

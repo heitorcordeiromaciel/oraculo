@@ -15,7 +15,7 @@ _ = load_dotenv(find_dotenv())
 # Ou no servidor que for utilizar.
 
 # No meu caso, estou usando o servidor da Asimov.
-ollama_server_url = "./llm/llama3.1:8b-instruct-q4_K_S.*" 
+ollama_server_url = "http://localhost:11434" 
 model_local = ChatOllama(model="llama3.1:8b-instruct-q4_K_S")
 
 @st.cache_data
@@ -33,7 +33,7 @@ def load_csv_data():
 
 
 retriever = load_csv_data()
-st.title("Oráculo - Asimov Academy")
+st.title("Oráculo - ITS")
 
 
 # Configuração do prompt e do modelo
