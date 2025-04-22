@@ -1,1 +1,3 @@
-Repositório para os códigos compartilhados da TI
+IA de assistencia para setores da empresa
+
+energizado por Ollama
